@@ -1,6 +1,6 @@
 import { Product, ApiResponse } from '../types/product';
 
-const API_URL = (import.meta as any).env.VITE_API_URL;
+const API_URL = (import.meta as any).env.VITE_API_URL  || 'https://e-commmerce-mbc.vercel.app';
 
 export const productApi = {
   // Fetch all products
