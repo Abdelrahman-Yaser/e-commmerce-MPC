@@ -670,3 +670,22 @@ body {
   .header-inner { padding: 0 1.25rem; }
   .product-grid { grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 1.25rem; }
 }
+
+.category-pill {
+  /* existing styles... */
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.pill-icon {
+  display: flex;
+  align-items: center;
+  opacity: 0.7;
+  transition: opacity 0.2s ease;
+}
+
+.category-pill.active .pill-icon,
+.category-pill:hover .pill-icon {
+  opacity: 1;
+}
