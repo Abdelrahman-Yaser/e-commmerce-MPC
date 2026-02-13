@@ -3,7 +3,14 @@
 A full-stack e-commerce application built with **React + TypeScript** (frontend) and **Node.js + Express + TypeScript + Prisma ORM** (backend).
 
 ---
+Delivery Links:
 
+🌐 Frontend (Live):       https://e-commerce-mbc.netlify.app/
+🔧 Backend (Live):        https://e-commmerce-mbc-git-main-abdelrahman-yasers-projects.vercel.app/
+📁 GitHub Repository:     https://github.com/Abdelrahman-Yaser/e-commmerce-MPC
+📄 Swagger API Docs:      https://e-commmerce-mbc.vercel.app/api-docs
+📬 Postman Collection:    https://web.postman.co/workspace/My-Workspace~0f55ad1a-c840-463d-834e-ca7f28294f50/collection/37190746-5d01389c-ba05-4494-a444-06cea163a325?action=share&source=copy-link&creator=37190746
+---
 ## Tech Stack
 
 ### Backend
