@@ -119,10 +119,13 @@ paths: {
       }
     }
   }
-};
-
-// تشغيل سوجر قبل الـ Routes والـ 404 Handler
-app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
+};app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument, {
+  customCssUrl: 'https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/5.11.0/swagger-ui.min.css',
+  customJs: [
+    'https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/5.11.0/swagger-ui-bundle.min.js',
+    'https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/5.11.0/swagger-ui-standalone-preset.min.js'
+  ]
+}));
 
 // ─────────────────────────────────────────
 // 3. Routes
